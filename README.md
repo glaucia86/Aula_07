@@ -1,7 +1,7 @@
 Aula 07:
 =======
 
-Projeto de Autenticação de Usuários contendo política de Acesso e  Segurança de diretórios.
+Projeto de Autenticação de Usuários contendo política de Acesso, Segurança de diretórios e Introdução a Ajax.
 
 ##Assuntos abordados no desenvolvimento do projeto:
 
@@ -12,6 +12,9 @@ Projeto de Autenticação de Usuários contendo política de Acesso e  Seguranç
 - Uso de Session para fornecer acesso ao usuário através da tela de Login
 - E a lógica em C# do Logout excluindo Session
 - Limpeza de Cache na página Home.aspx
+- Componentes aspx para Validação de Campos de Formulários: RequiredFieldValidator
+- Componente aspx para Confirmação de um campo: CompareValidator
+- Uso do Ajax através do componente: ScriptManager no CadastrarUsuario.aspx
 
 
 p.s.: alterar a connectionstring!!!
