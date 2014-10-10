@@ -21,9 +21,9 @@ namespace Site.Pages
         {
             var u = new Usuario()
             {
-                Nome = txtNome.Text,
-                Login = txtUsuario.Text,
-                Senha = txtSenha.Text,
+                Nome         = txtNome.Text,
+                Login        = txtUsuario.Text,
+                Senha        = txtSenha.Text,
                 DataCadastro = DateTime.Now
             };
 
@@ -32,16 +32,14 @@ namespace Site.Pages
 
             lblMensagem.Text = "Usuário Cadastrado com sucesso!!!";
 
-            LimparCampos();
-
-            
+            LimparCampos();         
         }
 
         private void LimparCampos()
         {
-            txtNome.Text = string.Empty;
+            txtNome.Text    = string.Empty;
             txtUsuario.Text = string.Empty;
-            txtSenha.Text = string.Empty;
+            txtSenha.Text   = string.Empty;
         }
     }
 }

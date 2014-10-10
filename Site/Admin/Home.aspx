@@ -25,7 +25,6 @@
             <br />
     </div>
         <div class="col-lg-10">
- 
             <b>Nome do Usuário:</b>
             <asp:Label ID="lblNomeUsuario" runat="server"/>
             <br />
